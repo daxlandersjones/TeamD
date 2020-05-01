@@ -16,11 +16,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sp-x4-Tgs">
-                                <rect key="frame" x="195" y="399" width="46" height="51"/>
+                                <rect key="frame" x="306" y="300" width="46" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="YDa-Y6-PE1" kind="show" id="byo-GI-Tve"/>
+                                    <segue destination="YDa-Y6-PE1" kind="showDetail" id="MKh-Yv-grv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -37,7 +37,7 @@
             <objects>
                 <viewController id="YDa-Y6-PE1" customClass="MapViewController" customModule="ProjectP2TeamD" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LbQ-fp-eOi" customClass="Map">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HvF-hh-t4j">
@@ -50,6 +50,7 @@
                         <viewLayoutGuide key="safeArea" id="NqT-7m-ir4"/>
                     </view>
                     <navigationItem key="navigationItem" id="Tfb-Hf-amj"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cb4-Sw-XEp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
