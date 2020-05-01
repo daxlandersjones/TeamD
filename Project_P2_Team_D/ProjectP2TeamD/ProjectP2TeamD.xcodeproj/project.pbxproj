@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		829AE820A32FC9DB6B01B8E1 /* libPods-ProjectP2TeamD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7944BF87F9794763AC51F253 /* libPods-ProjectP2TeamD.a */; };
+		B0C4BDCB245BA87A00A455AD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B0C4BDCA245BA87A00A455AD /* Podfile */; };
+		B0C4BDCD245BAFF200A455AD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C4BDCC245BAFF200A455AD /* MapViewController.swift */; };
 		C3A21DAF2440E0EE0057E5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A21DAE2440E0EE0057E5F4 /* AppDelegate.swift */; };
 		C3A21DB12440E0EE0057E5F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A21DB02440E0EE0057E5F4 /* SceneDelegate.swift */; };
 		C3A21DB32440E0EE0057E5F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A21DB22440E0EE0057E5F4 /* ViewController.swift */; };
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0088AF13568AD17D6B838C04 /* Pods-ProjectP2TeamD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectP2TeamD.release.xcconfig"; path = "Target Support Files/Pods-ProjectP2TeamD/Pods-ProjectP2TeamD.release.xcconfig"; sourceTree = "<group>"; };
+		7944BF87F9794763AC51F253 /* libPods-ProjectP2TeamD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectP2TeamD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9760C13A98A67617DF238F68 /* Pods-ProjectP2TeamD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectP2TeamD.debug.xcconfig"; path = "Target Support Files/Pods-ProjectP2TeamD/Pods-ProjectP2TeamD.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C4BDCA245BA87A00A455AD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B0C4BDCC245BAFF200A455AD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C3A21DAB2440E0EE0057E5F4 /* ProjectP2TeamD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectP2TeamD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A21DAE2440E0EE0057E5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3A21DB02440E0EE0057E5F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829AE820A32FC9DB6B01B8E1 /* libPods-ProjectP2TeamD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02BC722BD2F813081C8DDB12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9760C13A98A67617DF238F68 /* Pods-ProjectP2TeamD.debug.xcconfig */,
+				0088AF13568AD17D6B838C04 /* Pods-ProjectP2TeamD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C3A21DA22440E0EE0057E5F4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +103,8 @@
 				C3A21DC72440E0F00057E5F4 /* ProjectP2TeamDTests */,
 				C3A21DD22440E0F00057E5F4 /* ProjectP2TeamDUITests */,
 				C3A21DAC2440E0EE0057E5F4 /* Products */,
+				02BC722BD2F813081C8DDB12 /* Pods */,
+				EE7CE2A137D24D2110C48C3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +125,8 @@
 				C3A21DB02440E0EE0057E5F4 /* SceneDelegate.swift */,
 				C3A21DB22440E0EE0057E5F4 /* ViewController.swift */,
 				C3A21DB42440E0EE0057E5F4 /* Main.storyboard */,
+				B0C4BDCC245BAFF200A455AD /* MapViewController.swift */,
+				B0C4BDCA245BA87A00A455AD /* Podfile */,
 				C3A21DBA2440E0F00057E5F4 /* Assets.xcassets */,
 				C3A21DBC2440E0F00057E5F4 /* LaunchScreen.storyboard */,
 				C3A21DBF2440E0F00057E5F4 /* Info.plist */,
@@ -131,6 +153,14 @@
 			path = ProjectP2TeamDUITests;
 			sourceTree = "<group>";
 		};
+		EE7CE2A137D24D2110C48C3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7944BF87F9794763AC51F253 /* libPods-ProjectP2TeamD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3A21DD82440E0F00057E5F4 /* Build configuration list for PBXNativeTarget "ProjectP2TeamD" */;
 			buildPhases = (
+				AB09D0AF21637A876DF456EB /* [CP] Check Pods Manifest.lock */,
 				C3A21DA72440E0EE0057E5F4 /* Sources */,
 				C3A21DA82440E0EE0057E5F4 /* Frameworks */,
 				C3A21DA92440E0EE0057E5F4 /* Resources */,
+				4CB60DC06A51179889A1166B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +269,7 @@
 			files = (
 				C3A21DBE2440E0F00057E5F4 /* LaunchScreen.storyboard in Resources */,
 				C3A21DBB2440E0F00057E5F4 /* Assets.xcassets in Resources */,
+				B0C4BDCB245BA87A00A455AD /* Podfile in Resources */,
 				C3A21DB62440E0EE0057E5F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +290,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CB60DC06A51179889A1166B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectP2TeamD/Pods-ProjectP2TeamD-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectP2TeamD/Pods-ProjectP2TeamD-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectP2TeamD/Pods-ProjectP2TeamD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB09D0AF21637A876DF456EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectP2TeamD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3A21DA72440E0EE0057E5F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +340,7 @@
 				C3A21DB32440E0EE0057E5F4 /* ViewController.swift in Sources */,
 				C3A21DAF2440E0EE0057E5F4 /* AppDelegate.swift in Sources */,
 				C3A21DB12440E0EE0057E5F4 /* SceneDelegate.swift in Sources */,
+				B0C4BDCD245BAFF200A455AD /* MapViewController.swift in Sources */,
 				C3A21DB92440E0EE0057E5F4 /* ProjectP2TeamD.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +512,7 @@
 		};
 		C3A21DD92440E0F00057E5F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9760C13A98A67617DF238F68 /* Pods-ProjectP2TeamD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +530,7 @@
 		};
 		C3A21DDA2440E0F00057E5F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0088AF13568AD17D6B838C04 /* Pods-ProjectP2TeamD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
